@@ -1,4 +1,4 @@
 # Create a data frame "dnames" containing columns for a list of participants ("P"), a list of significant others ("S"), and a list of avoidances ("A")
-dnames = data.frame("P" = c("Chris", "Jim", "Leslie", "Mitch", "Louis", "Dwight", "Jeremy", "Ray", "Andy", "Carla", "Pam", "Ben", "Cameron", "Jessica"), "S" = c("Carla", "Pam", "Ben", "Cameron", "Jessica", "NA", "NA", "NA", "NA", "Chris", "Jim", "Leslie", "Mitch", "Louis"), "A" = c("NA", "NA", "Jeremy", "NA", "Ray", "Jim", "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA") stringAsFactors = FALSE)
+dnames = data.frame("P" = c("Chris", "Jim", "Leslie", "Mitch", "Louis", "Dwight", "Jeremy", "Ray", "Andy", "Carla", "Pam", "Ben", "Cameron", "Jessica"), "S" = c("Carla", "Pam", "Ben", "Cameron", "Jessica", "NA", "NA", "NA", "NA", "Chris", "Jim", "Leslie", "Mitch", "Louis"), "A" = c("NA", "NA", "Jeremy", "NA", "Ray", "Jim", "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA"), stringAsFactors = FALSE)
 # Print the full data frame
 dnames
