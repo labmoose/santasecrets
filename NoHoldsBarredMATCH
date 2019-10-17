@@ -1,6 +1,9 @@
-# Create a vector; use sample to create a randomized vector of elements (names of all Secret Santa exchange participants) called S (for "Santas")
-S <- sample (c("Chris", "Carla", "Jim", "Pam", "Leslie", "Ben", "Mitch", "Cameron", "Louis", "Jessica", "Dwight", "Jeremy", "Ray", "Andy"), size=14, replace =F)
-# Create a vector; use sample to create a randomized vector of elements (names of all Secret Santa exchange participants) called R (for "Recipients")
-R <- sample (c("Chris", "Carla", "Jim", "Pam", "Leslie", "Ben", "Mitch", "Cameron", "Louis", "Jessica", "Dwight", "Jeremy", "Ray", "Andy"), size=14, replace =F)
-# Create a dataframe that pairs the randomized column S (Santas/gift givers) and randomized column R (Recipients)
-data.frame("Santas" = S, "Recipient" = R)
+# Create the list of participants p
+p <- c("Chris", "Carla", "Jim", "Pam", "Leslie", "Ben", "Mitch", "Cameron", "Louis", "Jessica", "Dwight", "Jeremy", "Ray", "Andy")
+# create a vector of randomly sampled names of participants w/o replacement
+p1 <- sample(p, 14, replace= FALSE)
+# create a second vector of randomly sample names of participants w/o replacement
+p2 <- sample(p, 14, replace= FALSE)
+#create a dataframe with col1 "Santas" (gift givers) from vector p1, and col2 "Recipeients" (gift receivers) from vector p2
+xlist <- data.frame("Santas"= p1, "Recipients"= p2)
+xlist
