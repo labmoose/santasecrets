@@ -74,9 +74,6 @@ while((TID == TRUE) | (TSO == TRUE) | (TF == TRUE)) {
   TF <- FALSE %in% testf
   # Print the result of variable TSO to check that this code if working
   TF
-  if((TID == FALSE) & (TSO == FALSE) & (TF == FALSE)) {
-    break
-  }
 }
 # If there are disallowed matches in the testing above, print message to signal where adjustments are required
 if(TID == TRUE) {
