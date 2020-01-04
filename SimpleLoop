@@ -1,9 +1,0 @@
-# Create the list of participants s for the "Santas"
-s <- c("Chris", "Carla", "Jim", "Pam", "Leslie", "Ben", "Mitch", "Cameron", "Louis", "Jessica", "Dwight", "Jeremy", "Ray", "Andy")
-# Create the list of participants r to pull from for the "Recipients"
-r <- c("Chris", "Carla", "Jim", "Pam", "Leslie", "Ben", "Mitch", "Cameron", "Louis", "Jessica", "Dwight", "Jeremy", "Ray", "Andy")
-# Create a loop to pull matches from the "Recipients" vector
-for (santa in s) {
-  rep <- sample(r, 1, replace= FALSE)
- (print(paste0(santa, " ", rep))) 
-}
